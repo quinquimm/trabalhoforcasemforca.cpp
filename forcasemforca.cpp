@@ -35,10 +35,6 @@ int main() {
             }
         }
 
-        if (!acertou) {
-            cout << "A letra '" << letra << "' não está na frase. Tente novamente!\n";
-        }
-
         system("clear");
 
         cout << frase_oculta << "\n\n";
