@@ -10,7 +10,7 @@ int main() {
     cout << "Digite uma frase para o próximo jogador adivinhar." << endl;
     getline(cin, frase);
 
-    system("cls");
+    system("clear");
 
     string frase_oculta = frase;
 
@@ -39,12 +39,12 @@ int main() {
             cout << "A letra '" << letra << "' não está na frase. Tente novamente!\n";
         }
 
-        system("cls");
+        system("clear");
 
         cout << frase_oculta << "\n\n";
 
         if (frase_oculta == frase) {
-            system("cls");
+            system("clear");
             cout << "\nParabéns! Você adivinhou a frase: " << frase << endl;
             break;
         }
